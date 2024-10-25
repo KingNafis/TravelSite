@@ -1,0 +1,144 @@
+/* Title */
+body{
+    font-family: "Montserrat", sans-serif;
+}
+#title{
+    background-color:#433878 ;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+h3{
+    font-family: "Montserrat", sans-serif ;
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+}
+
+/* Navigation */
+.navbar{
+    padding: 0 0 4rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 300 ;
+}
+
+/* Download Buttons */
+.db{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.titleimage{
+    width: 100%;
+    transform: rotate(25deg);
+    position: relative;
+}
+
+/* Features sec */
+#features{
+    padding: 7% 13%;
+    background-color:#fff ;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center ;
+    padding: 5%;
+}
+.icon{
+    color: #7E60BF;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #433878;
+}
+
+/* Testimonial */
+#testimonials{
+    text-align: center;
+    background-color: #7E60BF;
+    color: #fff;
+}
+.tsimg{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #7E60BF;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.primg{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 13%;
+}
+
+/* Pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.prcl{
+    padding: 3% 2%;
+}
+
+/* CTA */
+#cta{
+    background-color: #433878;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+.ctahd{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+#footer{
+    padding: 7% 15% ;
+    text-align: center;
+}
+.ficon{
+    margin: 20px 10px;
+}
+
+/* Mobile */
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .titleimage{
+        transform: rotate(0);
+        position: static;
+    }
+}
